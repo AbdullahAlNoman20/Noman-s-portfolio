@@ -2,7 +2,7 @@
 const Plan = () => {
     return (
         <div>
-            <section className="py-20 dark:bg-gray-100 dark:text-gray-800">
+            <section className="py-20 px-3 dark:bg-gray-100 dark:text-gray-800">
 	<div className="container px-4 mx-auto">
 		<div className="max-w-2xl mx-auto mb-16 text-center">
 			<span className="font-bold tracking-wider uppercase dark:text-violet-600">Pricing</span>
@@ -17,7 +17,7 @@ const Plan = () => {
 							<span className="text-sm tracking-wide">/Work</span>
 						</span>
 					</div>
-					<p className="mt-3 leading-relaxed dark:text-gray-600">Etiam ac convallis enim, eget euismod dolor.</p>
+					<p className="mt-3 leading-relaxed dark:text-gray-600">Unlock the essentials and kickstart your project with our Silver Plan.</p>
 					<ul className="flex-1 mb-6 dark:text-gray-600">
 						<li className="flex mb-2 space-x-2">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
@@ -49,7 +49,7 @@ const Plan = () => {
 							<span className="text-sm tracking-wide">/Work</span>
 						</span>
 					</div>
-					<p className="leading-relaxed">Morbi cursus ut sapien sit amet consectetur.</p>
+					<p className="leading-relaxed">Elevate your vision with advanced features and personalized attention through our Gold Plan.</p>
 					<ul className="flex-1 space-y-2">
 						<li className="flex items-center space-x-2">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
@@ -87,7 +87,7 @@ const Plan = () => {
 							<span className="text-sm tracking-wide">/Work</span>
 						</span>
 					</div>
-					<p className="leading-relaxed dark:text-gray-600">Phasellus ultrices bibendum nibh in vehicula.</p>
+					<p className="leading-relaxed dark:text-gray-600">Experience the pinnacle of excellence with our Platinum Plan, where every detail is polished to perfection.</p>
 					<ul className="space-y-2 dark:text-gray-600">
 						<li className="flex items-start space-x-2">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
@@ -126,20 +126,6 @@ const Plan = () => {
 		</div>
 	</div>
 </section>
-
-<div className="p-6 py-12 dark:text-blue-950">
-	<div className="container mx-auto">
-		<div className="flex flex-col lg:flex-row items-center justify-between">
-			<h2 className="text-center text-6xl tracking-tighter font-bold">Up to
-				<br  className="sm:hidden" /> 30% Off
-			</h2>
-			<div className="space-x-2 text-center py-2 lg:py-0">
-				<span>Plus 1 month extra support! Use code:</span>
-				<span className="font-bold text-lg">ABN24</span>
-			</div>
-		</div>
-	</div>
-</div>
 
         </div>
     );

@@ -62,6 +62,13 @@ const Nav = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink to="/portfolio">
+              <a>
+              <i class="fa-solid fa-briefcase"></i> Portfolio
+              </a>
+              </NavLink>
+            </li>
+            <li>
               <NavLink to="/contact">
               <a>
                 <i class="fa-solid fa-phone-volume"></i> Contact
@@ -112,6 +119,13 @@ const Nav = () => {
               <NavLink to="/team">
               <a>
               <i class="fa-solid fa-people-group"></i> Teams
+              </a>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/portfolio">
+              <a>
+              <i class="fa-solid fa-briefcase"></i> Portfolio
               </a>
               </NavLink>
             </li>

@@ -12,6 +12,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Team from './Components/Team';
 import Education from './Components/Education';
+import Portfolio from './Components/Portfolio';
 
 
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: '/edu',
         element: <Education></Education>
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio></Portfolio>
       }
     ]
   },
