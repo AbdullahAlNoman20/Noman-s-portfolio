@@ -10,9 +10,9 @@ const About = () => {
 		</div>
 		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 			<div>
-				<h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">Ad vix debet docendi</h3>
-				<p className="mt-3 text-lg dark:text-gray-600">Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.</p>
-				<div className="mt-12 space-y-12">
+				<h3 data-aos="fade-right" data-aos-duration="1000" className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">Ad vix debet docendi</h3>
+				<p data-aos="fade-right" data-aos-duration="2000" className="mt-3 text-lg dark:text-gray-600">Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.</p>
+				<div data-aos="fade-right" data-aos-duration="3000" className="mt-12 space-y-12">
 					<div className="flex">
 						<div className="flex-shrink-0">
 							<div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
@@ -55,15 +55,17 @@ const About = () => {
 				</div>
 			</div>
 			<div aria-hidden="true" className="mt-10 lg:mt-0">
-				<img src="https://source.unsplash.com/random/360x480" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
+				<img data-aos="fade-left" data-aos-duration="2000" src="https://i.ibb.co/5rDHWwY/IMG-20220325-125405-415-01.jpg" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
 			</div>
 		</div>
+
+
 		<div>
 			<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 				<div className="lg:col-start-2">
-					<h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">Eam nibh gloriatur ex</h3>
-					<p className="mt-3 text-lg dark:text-gray-600">Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nibh dissentias, mei exerci tamquam euripidis cu.</p>
-					<div className="mt-12 space-y-12">
+					<h3 data-aos="fade-left" data-aos-duration="1000" className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">Eam nibh gloriatur ex</h3>
+					<p data-aos="fade-left" data-aos-duration="2000" className="mt-3 text-lg dark:text-gray-600">Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nibh dissentias, mei exerci tamquam euripidis cu.</p>
+					<div data-aos="fade-left" data-aos-duration="3000" className="mt-12 space-y-12">
 						<div className="flex">
 							<div className="flex-shrink-0">
 								<div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
@@ -106,7 +108,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-					<img src="https://source.unsplash.com/random/361x481" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
+					<img data-aos="fade-right" data-aos-duration="2000" src="https://i.ibb.co/0q0CNQY/2024-01-27-13-35-IMG-4671.jpg" alt="" className="mx-auto rounded-lg shadow-lg dark:bg-gray-500" />
 				</div>
 			</div>
 		</div>

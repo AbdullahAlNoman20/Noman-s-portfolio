@@ -14,6 +14,10 @@ import Team from './Components/Team';
 import Education from './Components/Education';
 import Portfolio from './Components/Portfolio';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 
 
 const router = createBrowserRouter([
