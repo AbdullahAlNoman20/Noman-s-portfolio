@@ -2,12 +2,16 @@
 const Education = () => {
     return (
         <div className="p-5  ">
+
+			{/* Tab Container */}
             <div role="tablist" className="tabs tabs-lifted">
+
+				{/* Tab-1 */}
   <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Experiences" />
   <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
     
     
-  <section className="dark:bg-gray-100 dark:text-gray-800">
+  <section className="dark:bg-gray-100 dark:text-gray-800 rounded-xl">
 	<div className="container px-4 py-16 mx-auto space-y-8 lg:max-w-3xl">
 		<h2 className="text-2xl font-bold md:text-4xl">Experiences</h2>
 		<div className="space-y-8">
@@ -104,11 +108,13 @@ const Education = () => {
     
     </div>
 
+
+			{/* Tab-2 */}
   <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Education" checked />
   <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
     
     
-  <section className="dark:bg-gray-100 dark:text-gray-800">
+  <section className="dark:bg-gray-100 dark:text-gray-800 rounded-xl">
 	<div className="container max-w-5xl px-4 py-12 mx-auto">
 		<div className="grid gap-4 mx-4 sm:grid-cols-12">
 			<div className="col-span-12 sm:col-span-3">
@@ -147,6 +153,106 @@ const Education = () => {
   
   
   </div>
+
+{/* Tab-3 */}
+<input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Papers" />
+  <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+    
+    
+  <ul className="p-4 lg:p-8 rounded-xl dark:bg-gray-100 dark:text-gray-800">
+	<li>
+		<article>
+			<a rel="noopener noreferrer" href="#" className="grid p-4 overflow-hidden md:grid-cols-5 rounded-xl lg:p-6 xl:grid-cols-12 hover:dark:bg-gray-50">
+				<h3 className="mb-1 ml-8 font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9">Earum at ipsa aliquid quis, exercitationem est.</h3>
+				<time datetime="" className="row-start-1 mb-1 md:col-start-1 xl:col-span-2 dark:text-gray-600">Oct 13, 2020</time>
+				<p className="ml-8 md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-9 md:ml-0 dark:text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique saepe exercitationem numquam, labore necessitatibus deleniti quasi. Illo porro nihil necessitatibus debitis delectus aperiam, fuga impedit assumenda odit, velit eveniet est.</p>
+			</a>
+		</article>
+	</li>
+	<li>
+		<article>
+			<a rel="noopener noreferrer" href="#" className="grid p-4 overflow-hidden md:grid-cols-5 rounded-xl lg:p-6 xl:grid-cols-12 hover:dark:bg-gray-50">
+				<h3 className="mb-1 ml-8 font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9">Earum at ipsa aliquid quis, exercitationem est.</h3>
+				<time datetime="" className="row-start-1 mb-1 md:col-start-1 xl:col-span-2 dark:text-gray-600">Oct 13, 2020</time>
+				<p className="ml-8 md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-9 md:ml-0 dark:text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique saepe exercitationem numquam, labore necessitatibus deleniti quasi. Illo porro nihil necessitatibus debitis delectus aperiam, fuga impedit assumenda odit, velit eveniet est.</p>
+			</a>
+		</article>
+	</li>
+	<li>
+		<article>
+			<a rel="noopener noreferrer" href="#" className="grid p-4 overflow-hidden md:grid-cols-5 rounded-xl lg:p-6 xl:grid-cols-12 hover:dark:bg-gray-50">
+				<h3 className="mb-1 ml-8 font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9">Earum at ipsa aliquid quis, exercitationem est.</h3>
+				<time datetime="" className="row-start-1 mb-1 md:col-start-1 xl:col-span-2 dark:text-gray-600">Oct 13, 2020</time>
+				<p className="ml-8 md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-9 md:ml-0 dark:text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique saepe exercitationem numquam, labore necessitatibus deleniti quasi. Illo porro nihil necessitatibus debitis delectus aperiam, fuga impedit assumenda odit, velit eveniet est.</p>
+			</a>
+		</article>
+	</li>
+	<li>
+		<article>
+			<a rel="noopener noreferrer" href="#" className="grid p-4 overflow-hidden md:grid-cols-5 rounded-xl lg:p-6 xl:grid-cols-12 hover:dark:bg-gray-50">
+				<h3 className="mb-1 ml-8 font-semibold md:col-start-2 md:col-span-4 md:ml-0 xl:col-start-3 xl:col-span-9">Earum at ipsa aliquid quis, exercitationem est.</h3>
+				<time datetime="" className="row-start-1 mb-1 md:col-start-1 xl:col-span-2 dark:text-gray-600">Oct 13, 2020</time>
+				<p className="ml-8 md:col-start-2 md:col-span-4 xl:col-start-3 xl:col-span-9 md:ml-0 dark:text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique saepe exercitationem numquam, labore necessitatibus deleniti quasi. Illo porro nihil necessitatibus debitis delectus aperiam, fuga impedit assumenda odit, velit eveniet est.</p>
+			</a>
+		</article>
+	</li>
+</ul>
+    
+    
+    
+    </div>
+
+
+
+{/* Tab-4 */}
+<input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Projects" />
+  <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+    
+
+  <section className="dark:bg-gray-100 dark:text-gray-800 p-5 rounded-xl">
+	<div className="container flex flex-col-reverse mx-auto lg:flex-row">
+		<div className="flex flex-col px-6 py-8 space-y-6 rounded-xl sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 dark:bg-violet-600 dark:text-gray-50">
+			<div className="flex space-x-2 sm:space-x-4">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-shrink-0 w-6 h-6">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+				</svg>
+				<div className="space-y-2">
+					<p className="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet</p>
+					<p className="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!</p>
+				</div>
+			</div>
+			<div className="flex space-x-2 sm:space-x-4">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-shrink-0 w-6 h-6">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+				</svg>
+				<div className="space-y-2">
+					<p className="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet</p>
+					<p className="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!</p>
+				</div>
+			</div>
+			<div className="flex space-x-2 sm:space-x-4">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-shrink-0 w-6 h-6">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+				</svg>
+				<div className="space-y-2">
+					<p className="text-lg font-medium leading-snug">Lorem ipsum dolor sit amet</p>
+					<p className="leading-snug">Praesentium ea et neque distinctio quas eius repudiandae quaerat obcaecati voluptatem similique!</p>
+				</div>
+			</div>
+		</div>
+		<div className="lg:w-1/2 xl:w-3/5 dark:bg-gray-100">
+			<div className="flex items-center justify-center p-4 md:p-8 lg:p-12">
+				<img src="https://i.ibb.co/nQd457B/IMG-5781.jpg" alt="" className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96" />
+			</div>
+		</div>
+	</div>
+</section>
+    
+
+
+    </div>
+
+
 
   </div>
         </div>

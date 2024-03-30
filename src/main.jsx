@@ -16,6 +16,7 @@ import Portfolio from './Components/Portfolio';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Login from './Components/Login';
 AOS.init();
 
 
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: '/portfolio',
         element: <Portfolio></Portfolio>
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
       }
     ]
   },

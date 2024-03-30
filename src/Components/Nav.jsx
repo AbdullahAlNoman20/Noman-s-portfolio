@@ -139,10 +139,13 @@ const Nav = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <NavLink to="/login">
           <button className="btn">
             <i class="fa-solid fa-laptop-code"></i>
             Work Together
           </button>
+          </NavLink>
+          
         </div>
       </div>
     </div>

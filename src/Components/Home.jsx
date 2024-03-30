@@ -1,13 +1,21 @@
+import { NavLink } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="">
-      <section>
+
+
+
+
+<section>
 	<div className="dark:bg-blue-950">
 		<div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-50">
 			<h1 data-aos="zoom-in" data-aos-duration="1000" className="text-5xl font-bold leading-none sm:text-6xl  dark:text-gray-50">Welcome to My Digital Hub: Discover, Hire, and Connect with Abdullah Al Noman.</h1>
 			<p data-aos="zoom-in" data-aos-duration="2000" className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-50 text-justify">Step into my digital realm, where innovation meets connection. Explore my portfolio to witness my expertise, download my CV to envision our collaboration, and delve into my daily life to see the person behind the code. Let's create, connect, and make magic together in the vast landscape of the web.</p>
 			<div className="flex flex-wrap justify-center">
+				<NavLink to="/login">
 				<button data-aos="fade-right" data-aos-duration="3000" type="button" className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-100 dark:text-gray-900"><i class="fa-solid fa-laptop-code"></i> Let's work together</button>
+				</NavLink>
 				<button data-aos="fade-left" data-aos-duration="3000" type="button" className="px-8 py-3 m-2 text-lg border rounded dark:border-gray-300 dark:text-gray-50"><i class="fa-regular fa-file-pdf"></i> Download CV</button>
 			</div>
 		</div>
@@ -118,6 +126,8 @@ const Home = () => {
 		</div>
 	</div>
 </section>
+
+
 
 
 
