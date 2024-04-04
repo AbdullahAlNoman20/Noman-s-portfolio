@@ -120,30 +120,30 @@ const Education = () => {
 			<div className="col-span-12 sm:col-span-3">
 				<div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-600">
 					<h3 data-aos="fade-right" data-aos-duration="3000" className="text-3xl font-semibold">Educational Qualification</h3>
-					<span className="text-sm font-bold tracking-wider uppercase dark:text-gray-600">Vestibulum diam nunc</span>
+					<span className="text-sm font-bold tracking-wider uppercase dark:text-gray-600">Nurturing a passion for technology through ongoing studies in Computer Science Engineering.</span>
 				</div>
 			</div>
 			<div  className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
 				<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-300">
 					<div data-aos="fade-left" data-aos-duration="1000" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
-						<h3 className="text-xl font-semibold tracking-wide">Donec porta enim vel </h3>
-						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Dec 2020</time>
-						<p className="mt-3">Pellentesque feugiat ante at nisl efficitur, in mollis orci scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+						<h3 className="text-xl font-semibold tracking-wide">BSc in Computer Science and Engineering</h3>
+						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Present</time>
+						<p className="mt-3">Currently pursuing a Bachelor of Science degree in Computer Science and Engineering at Daffodil International University, deepening knowledge and skills in the realm of technology and innovation.</p>
 					</div>
 					<div data-aos="fade-left" data-aos-duration="2000" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
-						<h3 className="text-xl font-semibold tracking-wide">Aliquam sit amet nunc ut</h3>
-						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Jul 2019</time>
-						<p className="mt-3">Morbi vulputate aliquam libero non dictum. Aliquam sit amet nunc ut diam aliquet tincidunt nec nec dui. Donec mollis turpis eget egestas sodales.</p>
+						<h3 className="text-xl font-semibold tracking-wide">Higher Secondary School Certificate (HSC) </h3>
+						<time className="text-xs tracking-wide uppercase dark:text-gray-600">2020</time>
+						<p className="mt-3">Successfully completed Higher Secondary education from Govt. Sundarban College in 2020, laying a solid foundation for further academic pursuits and personal growth.</p>
 					</div>
 					<div data-aos="fade-left" data-aos-duration="3000" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
-						<h3 className="text-xl font-semibold tracking-wide">Pellentesque habitant morbi</h3>
-						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Jan 2016</time>
-						<p className="mt-3">Suspendisse tincidunt, arcu nec faucibus efficitur, justo velit consectetur nisl, sit amet condimentum lacus orci nec purus. Mauris quis quam suscipit, vehicula felis id, vehicula enim.</p>
+						<h3 className="text-xl font-semibold tracking-wide">Secondary School Certificate (SSC)</h3>
+						<time className="text-xs tracking-wide uppercase dark:text-gray-600">2018</time>
+						<p className="mt-3">Attained Secondary School Certificate from Khulna Public College in 2018, marking a milestone in academic achievements and setting the stage for higher education endeavors.</p>
 					</div>
 					<div data-aos="fade-left" data-aos-duration="3000" className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
-						<h3 className="text-xl font-semibold tracking-wide">Pellentesque habitant morbi</h3>
-						<time className="text-xs tracking-wide uppercase dark:text-gray-600">Jan 2016</time>
-						<p className="mt-3">Suspendisse tincidunt, arcu nec faucibus efficitur, justo velit consectetur nisl, sit amet condimentum lacus orci nec purus. Mauris quis quam suscipit, vehicula felis id, vehicula enim.</p>
+						<h3 className="text-xl font-semibold tracking-wide">Hifjul Quran (Memorization of the Holy Quran)</h3>
+						<time className="text-xs tracking-wide uppercase dark:text-gray-600">2012</time>
+						<p className="mt-3">Achieved the milestone of memorizing the Holy Quran in 2012 at Darul Mukarrom Madrasha, fostering a deep spiritual connection alongside academic pursuits.</p>
 					</div>
 				</div>
 			</div>

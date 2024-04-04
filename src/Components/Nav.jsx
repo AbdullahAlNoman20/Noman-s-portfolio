@@ -138,7 +138,7 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end hidden md:hidden lg:block">
           <NavLink to="/login">
           <button className="btn">
             <i class="fa-solid fa-laptop-code"></i>
