@@ -17,6 +17,7 @@ import Portfolio from './Components/Portfolio';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Login from './Components/Login';
+import Error from './Components/Error';
 AOS.init();
 
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: '/',
